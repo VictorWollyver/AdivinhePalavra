@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline-style: none;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+#jogo{
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.404);  
+    width: 60%;
+    height: 80%;  
+    border: 0.4rem double black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: white;
+}
+
+#input-letras{
+    display: flex;
+    flex-direction: column;
+}
+
+.palavra{
+    border: none;
+    font-size: 1rem;
+    border: 0.2rem solid black;
+    text-align: center; 
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.404);  
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    color: orangered;
+
+    
+}
+
+button, select{
+    background-color: rgb(0, 0, 0);
+    color: orangered;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.404);  
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+
+}
+
+#opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.erro{
+    color: orangered;
+    text-align: center;
+    
+}
