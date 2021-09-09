@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <section id="jogo">
+        
+            <select name="Tema" id="temas">
+                <option disabled selected value="notSelected">Selecione o tema...</option>
+                <option value="Naruto">Naruto</option>
+                <option value="Frutas">Frutas</option>
+                <option value="Animais">Animais</option>
+                <option value="games">Games</option>
+                <option value="Linguagens de Programação">Linguagens de Programação</option>
+
+            </select>
+            <h2 class="score">Score: <span class="value-score">0</span></h2>
+        
+        <h2 class="hint">Dica: <span class="value-dica"></span></h2>
+        <div id="input-letras">
+            <input type="text" class="palavra">
+            <h1 class="erro"></h1>
+        </div>
+        <button>Verificar</button>
+    </section>
+    
+</body>
+<script src="assets/js/script.js"></script>
+</html>
